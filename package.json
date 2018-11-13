@@ -1,0 +1,29 @@
+{
+  "name": "express-graphql-apollo-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobsirl/express-graphql-apollo-react.git"
+  },
+  "keywords": [],
+  "author": "Paul Tobin <tobster111@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobsirl/express-graphql-apollo-react/issues"
+  },
+  "homepage": "https://github.com/tobsirl/express-graphql-apollo-react#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  }
+}
